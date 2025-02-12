@@ -19,3 +19,10 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+.custom-scroll {
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling sur Safari */
+}
+
+.custom-scroll::-webkit-scrollbar {
+  display: none; /* Cache les scrollbars sur Chrome et Safari */
+}

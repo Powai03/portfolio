@@ -20,31 +20,31 @@ const experiences: Record<"scolaire" | "professionnel", Experience[]> = {
     {
       id: 2,
       title: "BTS SIO",
-      description: "Option SLAM - Développement d'applications",
+      description: "Option SLAM - Développement d\'applications",
       image: "/images/bts.png",
     },
     {
         id: 3,
         title: "BTS SIO",
-        description: "Option SLAM - Développement d'applications",
+        description: "Option SLAM - Développement d\'applications",
         image: "/images/bts.png",
       },
       {
         id: 4,
         title: "BTS SIO",
-        description: "Option SLAM - Développement d'applications",
+        description: "Option SLAM - Développement d\'applications",
         image: "/images/bts.png",
       },
       {
         id: 5,
         title: "BTS SIO",
-        description: "Option SLAM - Développement d'applications",
+        description: "Option SLAM - Développement d\'applications",
         image: "/images/bts.png",
       },
       {
         id: 6,
         title: "BTS SIO",
-        description: "Option SLAM - Développement d'applications",
+        description: "Option SLAM - Développement d\'applications",
         image: "/images/bts.png",
       },
   ],
@@ -58,7 +58,7 @@ const experiences: Record<"scolaire" | "professionnel", Experience[]> = {
     {
       id: 2,
       title: "Stage en développement",
-      description: "Startup DEF - Création d'une application mobile",
+      description: "Startup DEF - Création d\'une application mobile",
       image: "/images/stage.png",
     },
   ],
@@ -69,7 +69,7 @@ const Parcours: React.FC = () => {
   const [selectedExperience, setSelectedExperience] = useState<Experience>(experiences[activeCategory][0]);
 
   return (
-    <section className="w-full bg-[#121212] text-white py-12 mb-16 flex flex-col items-center">
+    <section className="w-full bg-[#121212] text-white py-12 mt-32 mb-32 flex flex-col items-center">
         <h2 className="text-transparent lg:text-6xl text-2xl font-bold lg:mb-8 mb-6 bg-clip-text bg-gradient-to-r from-blue-500 to-green-600">Mon parcours</h2>
       {/* Boutons de catégorie */}
       <div className="flex w-full max-w-3xl border-b border-gray-700">

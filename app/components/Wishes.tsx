@@ -11,7 +11,7 @@ const TypeAnimation = dynamic(
 const Wishes = () => {
   return (
     <div>
-      <h1 className="flex flex-row justify-center text-white mt-16 mb-4 text-xl sm:text-5xl lg:text-6xl font-bold">
+      <h1 className="flex flex-row justify-center text-white mt-96 mb-64 text-xl sm:text-5xl lg:text-6xl font-bold">
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-600">
           Je veux&nbsp; {" "}
         </span>
@@ -23,13 +23,13 @@ const Wishes = () => {
             1000,
             " partager. 📚",
             1000,
-            " m'investir. 🚀",
+            " m\'investir. 🚀",
             1000,
             " rencontrer. 🤝",
             1000,
             " apprendre. 🧠",
             1000,
-            " m'épanouir. 🌱",
+            " m\'épanouir. 🌱",
           ]}
           wrapper="span"
           speed={50}

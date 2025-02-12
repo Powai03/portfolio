@@ -34,8 +34,12 @@ const EmailSection = () => {
     };
     
   return (
+    
     <section className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4" id="contact">
+        
         <div>
+        <h2 className="text-transparent lg:text-6xl text-2xl font-bold lg:mb-8 mb-6 bg-clip-text bg-gradient-to-r from-blue-500 to-green-600">Me contacter</h2>
+
             <h5 className="text-xl font-bold text-white my-2">Je suis à votre écoute.</h5>
             <p className="text-[#ADB7BE] mb-4 max-w-md">
   Toujours curieux et ouvert aux nouvelles opportunités, je serais ravi d’échanger avec vous.  <br />

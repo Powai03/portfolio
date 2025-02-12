@@ -11,7 +11,7 @@ const TypeAnimation = dynamic(
 const Hobbies = () => {
   return (
     <div >
-    <h1 className="flex flex-row justify-center text-white mb-4 text-xl sm:text-5xl lg:text-6xl font-bold">
+    <h1 className="flex flex-row justify-center text-white mt-96 mb-64 text-xl sm:text-5xl lg:text-6xl font-bold">
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-600">
           J&apos;aime&nbsp; {" "}
         </span>
@@ -23,7 +23,7 @@ const Hobbies = () => {
             1000,
             " le sport. 🏸 🏐",
             1000,
-            " l'architecture. 🏛️",
+            " l\'architecture. 🏛️",
             1000,
             " apprendre. 🧠",
             1000,
