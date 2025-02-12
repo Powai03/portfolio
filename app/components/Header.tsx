@@ -21,7 +21,7 @@ const Header = () => {
                                 1000,
                                 "étudiant en développement web.",
                                 1000,
-                                "à la recherche d\'une alternance.",
+                                "à la recherche d&apos;une alternance.",
                                 1000,
                             ]}
                             wrapper="span"
