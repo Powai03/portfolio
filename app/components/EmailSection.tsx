@@ -8,12 +8,13 @@ import Image from 'next/image'
 const EmailSection = () => {
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        const { email, sujet, message } = (e.target as HTMLFormElement).elements as any;
-        const data = {
-            email: email.value,
-            sujet: sujet.value,
-            message: message.value
-        }
+        const form = e.target as HTMLFormElement;
+        const email = (form.elements.namedItem("email") as HTMLInputElement).value;
+        const sujet = (form.elements.namedItem("sujet") as HTMLInputElement).value;
+        const message = (form.elements.namedItem("message") as HTMLTextAreaElement).value;
+    
+        const data = { email, sujet, message };
+        
         const JSONdata = JSON.stringify(data);
         const endpoint = "/api/send";
         const options = {
@@ -22,14 +23,16 @@ const EmailSection = () => {
                 "Content-Type": "application/json"
             },
             body: JSONdata
-        }
+        };
+        
         const response = await fetch(endpoint, options);
         if (response.status === 200) {
             alert("Message envoyé avec succès !");
         } else {
-            alert("Une erreur s&apos;est produite, veuillez réessayer.");
+            alert("Une erreur s'est produite, veuillez réessayer.");
         }
-    }
+    };
+    
   return (
     <section className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4">
         <div>
