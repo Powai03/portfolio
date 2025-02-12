@@ -6,9 +6,9 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 const EmailSection = () => {
-    const handleSubmit = async (e) => {
+    const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        const { email, sujet, message } = e.target.elements;
+        const { email, sujet, message } = (e.target as HTMLFormElement).elements as any;
         const data = {
             email: email.value,
             sujet: sujet.value,
