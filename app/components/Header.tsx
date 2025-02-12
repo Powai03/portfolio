@@ -3,9 +3,23 @@ import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 
+const calculateAge = (birthDate: Date) => {
+    const today = new Date();
+    let age = today.getFullYear() - birthDate.getFullYear();
+    const monthDifference = today.getMonth() - birthDate.getMonth();
+    if (monthDifference < 0 || (monthDifference === 0 && today.getDate() < birthDate.getDate())) {
+        age--;
+    }
+    return age;
+};
+
+const birthDate = new Date(2001, 0, 3); 
+const age = calculateAge(birthDate);
+
+
 const Header = () => {
     return (
-        <section className="py-16 lg:py-56">
+        <section className="py-16 lg:py-32" id="header">
             <div className="grid grid-cols-1 sm:grid-cols-12">
                 <div className="col-span-8 place-self-center text-center sm:text-left">
                     <h1 className="text-white mb-4 text-xl sm:text-5xl lg:text-6xl font-bold">
@@ -32,21 +46,28 @@ const Header = () => {
                     </h1>
                     <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6">
                         {" "}
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Quibusdam praesentium dolore nesciunt error
-                        assumenda nisi debitis, deleniti dolorum ex, sint autem
-                        cupiditate quaerat vero sapiente similique corrupti!
-                        Doloribus, ad quis.
+                        👋 Salut, moi c'est Kilian, ou Powai sur internet !
+                        Passionné par le développement web et l'architecture, j’aime explorer, apprendre et créer. Curieux et créatif, je prends plaisir à relever de nouveaux défis et à donner vie à des idées innovantes. <br />
+
+💡 Ce qui me motive ? Concevoir des solutions qui ont un impact, allier esthétique et performance, et toujours chercher à m’améliorer. <br />
+🚀 Ce que j’aime ? Apprendre de nouvelles technologies, expérimenter, explorer et partager mes connaissances. <br />
+🎯 Mon objectif ? Évoluer dans un environnement stimulant, collaborer avec des esprits inspirants et contribuer à des projets ambitieux. <br />
+
+Bienvenue dans mon univers ! 🌟
                     </p>
                     <div>
+                        <a href="https://www.linkedin.com/in/kilian-delcenserie-076a2028b/" target="_blank" rel="noopener noreferrer">
                         <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500  to-green-600 hover:bg-slate-300 text-white">
-                            Hire me
+                            Mon LinkedIn
                         </button>
-                        <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 to-green-600 hover:bg-slate-800 text-white  mt-3">
-                            <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                                Mon CV
-                            </span>
-                        </button>
+                        </a>
+                        <a href="/CV.pdf" download>
+                            <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 to-green-600 hover:bg-slate-800 text-white mt-3">
+                                <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+                                    Mon CV
+                                </span>
+                            </button>
+                        </a>
                     </div>
                 </div>
                 <div className="col-span-4 place-self-center mt-4 lg:mt-0">

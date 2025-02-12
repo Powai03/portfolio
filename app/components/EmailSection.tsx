@@ -34,15 +34,18 @@ const EmailSection = () => {
     };
     
   return (
-    <section className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4">
+    <section className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4" id="contact">
         <div>
             <h5 className="text-xl font-bold text-white my-2">Je suis à votre écoute.</h5>
-            <p className="text-[#ADB7BE] mb-4 max-w-md">Je suis ouvert à toutes les opportunités, conseils ou échanges, n&apos;hésitez pas à me contacter. Je serai ravi de vous répondre.</p>
+            <p className="text-[#ADB7BE] mb-4 max-w-md">
+  Toujours curieux et ouvert aux nouvelles opportunités, je serais ravi d’échanger avec vous.  <br />
+  N’hésitez pas à me contacter pour toute discussion, conseil ou collaboration. Je vous répondrai avec plaisir !
+</p>
             <div className="socials flex flex-row gap-2">
-                <Link href="github.com">
+                <Link href="https://github.com/Powai03" target="_blank">
                     <Image src={GithubIcon} alt="Github" />
                 </Link>
-                <Link href="linkedin.com">
+                <Link href="https://www.linkedin.com/in/kilian-delcenserie-076a2028b/" target="_blank">
                     <Image src={LinkedinIcon} alt="Linkedin" />
                 </Link>
                 
