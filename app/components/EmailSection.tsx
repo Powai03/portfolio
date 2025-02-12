@@ -4,7 +4,6 @@ import GithubIcon from '../../public/github.svg'
 import LinkedinIcon from '../../public/linkedin.svg'
 import Link from 'next/link'
 import Image from 'next/image'
-import logoweb from '../../public/logoweb.svg'
 
 const EmailSection = () => {
     const handleSubmit = async (e) => {

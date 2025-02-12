@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
 import EmailSection from "./components/EmailSection";
@@ -11,7 +10,6 @@ export default function Home() {
       <div className="container mx-auto px-12 py-6">
         <Header />
         <EmailSection />
-        
       </div>
       <Footer />
     </main>
