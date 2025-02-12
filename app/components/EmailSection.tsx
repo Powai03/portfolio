@@ -27,7 +27,7 @@ const EmailSection = () => {
         if (response.status === 200) {
             alert("Message envoyé avec succès !");
         } else {
-            alert("Une erreur s'est produite, veuillez réessayer.");
+            alert("Une erreur s&apos;est produite, veuillez réessayer.");
         }
     }
   return (
