@@ -47,10 +47,10 @@ const Header = () => {
                     <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6">
                         {" "}
                         👋 Salut, moi c'est Kilian, ou Powai sur internet !
-                        Passionné par le développement web et l'architecture, j’aime explorer, apprendre et créer. Curieux et créatif, je prends plaisir à relever de nouveaux défis et à donner vie à des idées innovantes. <br />
+                        J'ai {age} ans et je suis passionné par le développement web et l&apos;architecture, j&apos;aime explorer, apprendre et créer. Curieux et créatif, je prends plaisir à relever de nouveaux défis et à donner vie à des idées innovantes. <br />
 
-💡 Ce qui me motive ? Concevoir des solutions qui ont un impact, allier esthétique et performance, et toujours chercher à m’améliorer. <br />
-🚀 Ce que j’aime ? Apprendre de nouvelles technologies, expérimenter, explorer et partager mes connaissances. <br />
+💡 Ce qui me motive ? Concevoir des solutions qui ont un impact, allier esthétique et performance, et toujours chercher à m&apos;améliorer. <br />
+🚀 Ce que j&apos;aime ? Apprendre de nouvelles technologies, expérimenter, explorer et partager mes connaissances. <br />
 🎯 Mon objectif ? Évoluer dans un environnement stimulant, collaborer avec des esprits inspirants et contribuer à des projets ambitieux. <br />
 
 Bienvenue dans mon univers ! 🌟
