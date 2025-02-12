@@ -5,7 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const Header = () => {
     return (
-        <section className="py-16 ">
+        <section className="py-16 lg:py-56">
             <div className="grid grid-cols-1 sm:grid-cols-12">
                 <div className="col-span-8 place-self-center text-center sm:text-left">
                     <h1 className="text-white mb-4 text-xl sm:text-5xl lg:text-6xl font-bold">
@@ -21,7 +21,7 @@ const Header = () => {
                                 1000,
                                 "étudiant en développement web.",
                                 1000,
-                                "à la recherche d&apos;une alternance.",
+                                "à la recherche d\'une alternance.",
                                 1000,
                             ]}
                             wrapper="span"
