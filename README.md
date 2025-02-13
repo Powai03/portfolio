@@ -25,8 +25,16 @@ cd portfolio
 ```bash
 npm install
 ```
+### 3️⃣ Configuration des variables d'environnement
+Créez un fichier .env à la racine et ajoutez les clés suivantes :
+```
+RESEND_API_KEY=your_resend_api_key
+FROM_EMAIL=your_email@yourdomain.com
+```
+RESEND_API_KEY : Votre clé API Resend pour l’envoi d’emails
+FROM_EMAIL : L’adresse e-mail associée à votre nom de domaine
 
-### 3️⃣ Lancer le serveur local  
+### 4️⃣ Lancer le serveur local  
 ```bash
 npm run dev
 ```
@@ -45,7 +53,7 @@ Le projet sera accessible sur **http://localhost:3000** (ou un autre port selon 
 
 ## 🤝 Contribuer  
 
-Si vous avez des suggestions ou des idées d’amélioration, **n’hésitez pas à ouvrir une issue ou un PR** ! 🎉  
+Si vous avez des suggestions ou des idées d’amélioration, **n’hésitez pas à utiliser le formulaire de contact sur powai.dev pour me contacter** ! 🎉  
 
 📩 **Contact :**  
 [Email](mailto:kilian.dlcsr92@gmail.com)  
