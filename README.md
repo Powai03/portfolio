@@ -3,9 +3,6 @@
 Bienvenue sur le dépôt de mon portfolio **[Powai.dev](https://powai.dev)** ! 🎨💻  
 Ce projet est ma vitrine en ligne, où je mets en avant mes compétences en développement web avec une touche de créativité.  
 
-## 🚀 Aperçu
-
-![Portfolio Screenshot](URL_DE_L_IMAGE) *(Ajoute une capture d’écran ici !)*  
 
 🔗 **Lien live :** [https://powai.dev](https://powai.dev)  
 
