@@ -12,6 +12,7 @@ const Hobbies = () => {
   return (
     <div >
     <h1 className="flex flex-row justify-center text-white mt-96 mb-64 text-xl sm:text-5xl lg:text-6xl font-bold">
+
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-600">
           J&apos;aime&nbsp; {" "}
         </span>
@@ -44,6 +45,7 @@ const Hobbies = () => {
           className="block lg:min-h-[120px] md:min-h-[100px] "
         />
       </h1>
+
     </div>
   );
 };

@@ -41,7 +41,7 @@ const Header = () => {
                             wrapper="span"
                             speed={50}
                             repeat={Infinity}
-                            className="block lg:min-h-[120px] md:min-h-[100px] "
+                            className="block lg:min-h-[120px] md:min-h-[100px] min-h-[60px] "
                         />
                     </h1>
                     <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6">
@@ -50,7 +50,6 @@ const Header = () => {
                         J&apos;ai {age} ans et je suis passionné par le développement web et l&apos;architecture, j&apos;aime explorer, apprendre et créer. Curieux et créatif, je prends plaisir à relever de nouveaux défis et à donner vie à des idées innovantes. <br />
 
 💡 Ce qui me motive ? Concevoir des solutions qui ont un impact, allier esthétique et performance, et toujours chercher à m&apos;améliorer. <br />
-🚀 Ce que j&apos;aime ? Apprendre de nouvelles technologies, expérimenter, explorer et partager mes connaissances. <br />
 🎯 Mon objectif ? Évoluer dans un environnement stimulant, collaborer avec des esprits inspirants et contribuer à des projets ambitieux. <br />
 
 Bienvenue dans mon univers ! 🌟
@@ -73,7 +72,7 @@ Bienvenue dans mon univers ! 🌟
                 <div className="col-span-4 place-self-center mt-4 lg:mt-0">
                     <div className="rounded-full overflow-hidden relative w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] ">
                         <Image
-                            src="/images/pp.jpeg"
+                            src="/images/pp.png"
                             alt="Photo du développeur"
                             className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                             width={300}

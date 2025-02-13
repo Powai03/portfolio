@@ -94,7 +94,7 @@ const Projects: React.FC = () => {
   };
 
   return (
-    <section className="w-full bg-[#121212] text-white py-12 flex flex-col items-center">
+    <section id="projects" className="w-full bg-[#121212] text-white py-12 flex flex-col items-center">
                 <h2 className="text-transparent lg:text-6xl text-2xl font-bold lg:mb-8 mb-6 bg-clip-text bg-gradient-to-r from-blue-500 to-green-600">Mes projets</h2>
 
       {/* Zone de projet qui s'adapte en hauteur selon le contenu */}

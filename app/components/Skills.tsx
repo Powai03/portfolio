@@ -27,6 +27,7 @@ const hardSkills = [
   { id: 21, name: "AutoCAD", image: "/images/AutoCAD-Light.svg" },
   { id: 22, name: "Blender", image: "/images/Blender-Dark.svg" },
   { id: 23, name: "Sketchup", image: "/images/Sketchup-Dark.svg" },
+  { id: 24, name: "IoT", image: "/images/iot.png" },
 ];
     
 // Soft Skills - Liste avec icônes et description
@@ -42,7 +43,7 @@ const Skills: React.FC = () => {
   const [hoveredSkill, setHoveredSkill] = useState<number | null>(null);
 
   return (
-    <section className="w-full lg:h-96 bg-[#121212] text-white py-12 flex flex-col items-center mb-32">
+    <section id="abilities"className="w-full lg:h-96 bg-[#121212] text-white py-12 flex flex-col items-center mb-32">
         <h2 className="text-transparent lg:text-6xl text-2xl font-bold lg:mb-8 mb-6 bg-clip-text bg-gradient-to-r from-blue-500 to-green-600">Mes compétences</h2>
         {
       /* Boutons de catégorie */}
