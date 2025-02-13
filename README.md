@@ -35,8 +35,7 @@ Le projet sera accessible sur **http://localhost:3000** (ou un autre port selon 
 ## 📸 Fonctionnalités  
 
 ✅ Design épuré et responsive  
-✅ Animations interactives  
-✅ Chargement rapide grâce à Vite  
+✅ Animations interactives   
 ✅ Sections claires et bien structurées  
 
 ## 🌱 Améliorations prévues  
