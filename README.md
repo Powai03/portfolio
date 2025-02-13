@@ -1,8 +1,3 @@
-Bien sûr ! Voici un **README.md** bien structuré et engageant pour ton portfolio. Il met en avant ton projet, ses technologies et comment l’exécuter en local.  
-
----  
-
-```md
 # 🍽️ Powai.dev – Mon Portfolio
 
 Bienvenue sur le dépôt de mon portfolio **[Powai.dev](https://powai.dev)** ! 🎨💻  
@@ -18,8 +13,6 @@ Ce projet est ma vitrine en ligne, où je mets en avant mes compétences en dév
 
 - ⚛️ **React** – Pour une interface dynamique et performante  
 - 🎨 **Tailwind CSS** – Pour un design moderne et responsive  
-- 🚀 **Framer Motion** – Pour des animations fluides  
-- 📡 **Vite** – Pour un développement rapide et efficace  
 
 ## 📦 Installation & Exécution  
 
@@ -40,7 +33,7 @@ npm install
 ```bash
 npm run dev
 ```
-Le projet sera accessible sur **http://localhost:5173** (ou un autre port selon votre config).  
+Le projet sera accessible sur **http://localhost:3000** (ou un autre port selon votre config).  
 
 ## 📸 Fonctionnalités  
 
@@ -53,15 +46,12 @@ Le projet sera accessible sur **http://localhost:5173** (ou un autre port selon 
 
 - 🔍 Ajout d’un mode **dark/light**  
 - 📝 Une page **blog** pour partager mes expériences  
-- 📬 Un formulaire de contact plus interactif  
 
 ## 🤝 Contribuer  
 
 Si vous avez des suggestions ou des idées d’amélioration, **n’hésitez pas à ouvrir une issue ou un PR** ! 🎉  
 
 📩 **Contact :**  
-[LinkedIn](https://linkedin.com/in/tonprofil) | [Twitter](https://twitter.com/tonpseudo) | [Email](mailto:tonmail@example.com)  
+[Email](mailto:kilian.dlcsr92@gmail.com)  
 
----  
 
-Si tu veux ajouter ou modifier des choses, dis-moi ! 😊
