@@ -60,7 +60,7 @@ const Skills: React.FC = () => {
           >
             {category === "hardskills" ? "Hard Skills" : "Soft Skills"}
             {activeCategory === category && (
-              <span className="absolute bottom-0 left-0 w-full h-1 bg-blue-500"></span>
+              <span className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-green-600"></span>
             )}
           </button>
         ))}
