@@ -16,7 +16,6 @@ const calculateAge = (birthDate: Date) => {
 const birthDate = new Date(2001, 0, 3); 
 const age = calculateAge(birthDate);
 
-
 const Header = () => {
     return (
         <section className="py-16 lg:py-32" id="header">
@@ -48,11 +47,9 @@ const Header = () => {
                         {" "}
                         👋 Salut, moi c&apos;est Kilian, ou Powai sur internet !
                         J&apos;ai {age} ans et je suis passionné par le développement web et l&apos;architecture, j&apos;aime explorer, apprendre et créer. Curieux et créatif, je prends plaisir à relever de nouveaux défis et à donner vie à des idées innovantes. <br />
-
-💡 Ce qui me motive ? Concevoir des solutions qui ont un impact, allier esthétique et performance, et toujours chercher à m&apos;améliorer. <br />
-🎯 Mon objectif ? Évoluer dans un environnement stimulant, collaborer avec des esprits inspirants et contribuer à des projets ambitieux. <br />
-
-Bienvenue dans mon univers ! 🌟
+                        💡 Ce qui me motive ? Concevoir des solutions qui ont un impact, allier esthétique et performance, et toujours chercher à m&apos;améliorer. <br />
+                        🎯 Mon objectif ? Évoluer dans un environnement stimulant, collaborer avec des esprits inspirants et contribuer à des projets ambitieux. <br />
+                        Bienvenue dans mon univers ! 🌟
                     </p>
                     <div>
                         <a href="https://www.linkedin.com/in/kilian-delcenserie-076a2028b/" target="_blank" rel="noopener noreferrer">
