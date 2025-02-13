@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Bien sûr ! Voici un **README.md** bien structuré et engageant pour ton portfolio. Il met en avant ton projet, ses technologies et comment l’exécuter en local.  
 
-## Getting Started
+---  
 
-First, run the development server:
+```md
+# 🍽️ Powai.dev – Mon Portfolio
 
+Bienvenue sur le dépôt de mon portfolio **[Powai.dev](https://powai.dev)** ! 🎨💻  
+Ce projet est ma vitrine en ligne, où je mets en avant mes compétences en développement web avec une touche de créativité.  
+
+## 🚀 Aperçu
+
+![Portfolio Screenshot](URL_DE_L_IMAGE) *(Ajoute une capture d’écran ici !)*  
+
+🔗 **Lien live :** [https://powai.dev](https://powai.dev)  
+
+## 🛠️ Technologies utilisées  
+
+- ⚛️ **React** – Pour une interface dynamique et performante  
+- 🎨 **Tailwind CSS** – Pour un design moderne et responsive  
+- 🚀 **Framer Motion** – Pour des animations fluides  
+- 📡 **Vite** – Pour un développement rapide et efficace  
+
+## 📦 Installation & Exécution  
+
+Si vous souhaitez tester ou modifier ce projet en local, voici comment faire :  
+
+### 1️⃣ Cloner le dépôt  
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Powai03/portfolio.git
+cd portfolio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2️⃣ Installer les dépendances  
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3️⃣ Lancer le serveur local  
+```bash
+npm run dev
+```
+Le projet sera accessible sur **http://localhost:5173** (ou un autre port selon votre config).  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📸 Fonctionnalités  
 
-## Learn More
+✅ Design épuré et responsive  
+✅ Animations interactives  
+✅ Chargement rapide grâce à Vite  
+✅ Sections claires et bien structurées  
 
-To learn more about Next.js, take a look at the following resources:
+## 🌱 Améliorations prévues  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🔍 Ajout d’un mode **dark/light**  
+- 📝 Une page **blog** pour partager mes expériences  
+- 📬 Un formulaire de contact plus interactif  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🤝 Contribuer  
 
-## Deploy on Vercel
+Si vous avez des suggestions ou des idées d’amélioration, **n’hésitez pas à ouvrir une issue ou un PR** ! 🎉  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📩 **Contact :**  
+[LinkedIn](https://linkedin.com/in/tonprofil) | [Twitter](https://twitter.com/tonpseudo) | [Email](mailto:tonmail@example.com)  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---  
+
+Si tu veux ajouter ou modifier des choses, dis-moi ! 😊
