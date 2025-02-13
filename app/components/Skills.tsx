@@ -4,14 +4,29 @@ import Image from "next/image";
 
 // Hard Skills - Liste avec images
 const hardSkills = [
-  { id: 1, name: "JavaScript", image: "/images/js.png" },
-  { id: 2, name: "React", image: "/images/react.png" },
-  { id: 3, name: "Node.js", image: "/images/node.png" },
-  { id: 4, name: "TailwindCSS", image: "/images/tailwind.png" },
-  { id: 5, name: "TailwindCSS", image: "/images/tailwind.png" },
-  { id: 6, name: "TailwindCSS", image: "/images/tailwind.png" },
-  { id: 7, name: "TailwindCSS", image: "/images/tailwind.png" },
-  { id: 8, name: "TailwindCSS", image: "/images/tailwind.png" },
+  { id: 1, name: "HTML", image: "/images/HTML.svg" },
+  { id: 2, name: "CSS", image: "/images/css.svg" },
+  { id: 3, name: "Sass", image: "/images/Sass.svg" },
+  { id: 4, name: "TailwindCSS", image: "/images/tailwindCSS-Dark.svg" },
+  { id: 5, name: "JavaScript", image: "/images/Javascript.svg" },
+  { id: 6, name: "TypeScript", image: "/images/TypeScript.svg" },
+  { id: 7, name: "NodeJS", image: "/images/NodeJS-Dark.svg" },
+  { id: 8, name: "Express", image: "/images/ExpressJS-Dark.svg" },
+  { id: 9, name: "React", image: "/images/React-Dark.svg"},
+  { id: 10, name: "NextJS", image: "/images/NextJS-Dark.svg" },
+  { id: 11, name: "PHP", image: "/images/PHP-Dark.svg" },
+  { id: 12, name: "MySQL", image: "/images/MySQL-Dark.svg" },
+  { id: 13, name: "Symfony", image: "/images/Symfony-Dark.svg" },
+  { id: 14, name: "Laravel", image: "/images/Laravel-Light.svg" },
+  { id: 15, name: "Python", image: "/images/Python-Dark.svg" },
+  { id: 16, name: "Github", image: "/images/Github-Dark.svg" },
+  { id: 17, name: "Figma", image: "/images/Figma-Dark.svg" },
+  { id: 18, name: "Photoshop", image: "/images/Photoshop.svg" },
+  { id: 19, name: "Illustrator", image: "/images/Illustrator.svg" },
+  { id: 20, name: "After Effects", image: "/images/AfterEffects.svg" },
+  { id: 21, name: "AutoCAD", image: "/images/AutoCAD-Light.svg" },
+  { id: 22, name: "Blender", image: "/images/Blender-Dark.svg" },
+  { id: 23, name: "Sketchup", image: "/images/Sketchup-Dark.svg" },
 ];
     
 // Soft Skills - Liste avec icônes et description
