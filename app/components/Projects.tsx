@@ -40,7 +40,7 @@ const initialProjects: Project[] = [
     title: "Portfolio personnel",
     shortTitle: "Portfolio",
     description: "Mon portfolio personnel, pour présenter mes projets, mes compétences et mon parcours. Un portfolio qui me représente et dont je suis fier. Réalisé avec Next.js et TailwindCSS.",
-    video: "https://player.vimeo.com/video/ID_DE_LA_VIDEO?autoplay=1&loop=1&muted=1&background=1",
+    video: "https://player.vimeo.com/video/1056506776?h=e93f090edf&autoplay=1&loop=1&muted=1&background=1",
     thumbnail: "/logoweb.svg",
     technologies: ["React", "NextJS", "TailwindCSS", "TypeScript", "Vercel", "Resend"],
     repo: "https://github.com/Powai03/portfolio",
