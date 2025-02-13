@@ -1,4 +1,4 @@
-# 🍽️ Powai.dev – Mon Portfolio
+# 🍽️ Powai.dev – Le Portfolio de Kilian Delcenserie (moi)
 
 Bienvenue sur le dépôt de mon portfolio **[Powai.dev](https://powai.dev)** ! 🎨💻  
 Ce projet est ma vitrine en ligne, où je mets en avant mes compétences en développement web avec une touche de créativité.  
