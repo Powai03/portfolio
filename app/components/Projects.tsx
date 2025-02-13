@@ -19,17 +19,18 @@ const initialProjects: Project[] = [
     title: "Plateforme de collection et d\'échange de cartes Harry Potter",
     shortTitle: "TCG Harry Potter",
     description: "Un site pour collectionner et échanger des cartes Harry Potter. Création de compte, tirage et collection de cartes, profil utilisateur personalisable et échange avec d\'autres utilisateurs. Projet de fin de première année de Bachelor.",
-    video: "https://player.vimeo.com/video/ID_DE_LA_VIDEO?autoplay=1&loop=1&muted=1&background=1",
-    thumbnail: "/images/hp.png",
+    video: "https://player.vimeo.com/video/1056478964?h=0f3e491c41&autoplay=1&loop=1&muted=1&background=1",
+    thumbnail: "/images/hp.jpg",
     technologies: ["HTML", "CSS", "JavaScript", "NodeJS", "ExpressJS", "MySQL"],
     repo: "https://github.com/Powai03/hp",
   },
+  
   {
     id: 2,
     title: "Plateforme E-commerce avec Symfony",
     shortTitle: "E-commerce",
     description: "Un site e-commerce avec gestion des utilisateurs, des paniers, des produit, des stocks, des commandes. Dans le cadre d\'un cours sur le framework Symfony.",
-    video: "https://player.vimeo.com/video/ID_DE_LA_VIDEO?autoplay=1&loop=1&muted=1&background=1",
+    video: "https://player.vimeo.com/video/1056483879?h=8a4df67ec7&autoplay=1&loop=1&muted=1&background=1",
     thumbnail: "/images/ecommerce.png",
     technologies: ["Symfony", "MySQL"],
     repo: "https://github.com/Powai03/ecommerce",
@@ -40,17 +41,17 @@ const initialProjects: Project[] = [
     shortTitle: "Portfolio",
     description: "Mon portfolio personnel, pour présenter mes projets, mes compétences et mon parcours. Un portfolio qui me représente et dont je suis fier. Réalisé avec Next.js et TailwindCSS.",
     video: "https://player.vimeo.com/video/ID_DE_LA_VIDEO?autoplay=1&loop=1&muted=1&background=1",
-    thumbnail: "/images/portfolio.png",
+    thumbnail: "/logoweb.svg",
     technologies: ["React", "NextJS", "TailwindCSS", "TypeScript", "Vercel", "Resend"],
-    repo: "hhttps://github.com/Powai03/portfolio",
+    repo: "https://github.com/Powai03/portfolio",
   },
   {
     id: 4,
     title: "Objet connecté - Simulateur de combat Pokémon",
     shortTitle: "IoT Pokémon",
     description: "Un objet connecté pour simuler des combats Pokémon. Choix des attaques, des Pokémon, des objets, des capacités, des statistiques. Choix des Pokémons via un lecteur RFID et connecté à une raspberry Pi Pico 3 W.",
-    video: "https://player.vimeo.com/video/ID_DE_LA_VIDEO?autoplay=1&loop=1&muted=1&background=1",
-    thumbnail: "/images/iotpokemon.png",
+    video: "https://player.vimeo.com/video/1056495147?h=868cfdf95d&autoplay=1&loop=1&muted=1&background=1",
+    thumbnail: "/images/pokemon.png",
     technologies: ["Python", "IoT", "Raspberry Pi", "RFID"],
     repo: "",
   },
@@ -59,8 +60,8 @@ const initialProjects: Project[] = [
     title: "Objet connecté - LED connecté à la plateforme de cartes Harry Potter",
     shortTitle: "IoT Harry Potter",
     description: "Grâce à une LED, une API et une raspberry Pi, la LED s\'allume de la couleur de la maison de la carte sur laquelle il a cliqué en dernier dans la plateforme de collection et d\'échange de cartes Harry Potter.",
-    video: "https://player.vimeo.com/video/ID_DE_LA_VIDEO?autoplay=1&loop=1&muted=1&background=1",
-    thumbnail: "/images/iotHP.png",
+    video: "https://player.vimeo.com/video/1056486562?h=36fd53f5e7&autoplay=1&loop=1&muted=1&background=1",
+    thumbnail: "/images/hp.jpg",
     technologies: ["Python", "IoT", "Raspberry Pi", "API", "NodeJS", "ExpressJS"],
     repo: "https://github.com/Powai03/cours_iot",
   },
@@ -69,7 +70,7 @@ const initialProjects: Project[] = [
     title: "To-Do List",
     shortTitle: "To-Do List",
     description: "Une application de gestion de tâches. Ajout, suppression, modification, marquage de tâches comme terminées. Réalisé avec TypeScript dans le cadre du cours de découverte de ce langage.",
-    video: "https://player.vimeo.com/video/ID_DE_LA_VIDEO?autoplay=1&loop=1&muted=1&background=1",
+    video: "https://player.vimeo.com/video/1056494510?h=394f50b7cc&autoplay=1&loop=1&muted=1&background=1",
     thumbnail: "/images/todolist.png",
     technologies: ["TypeScript"],
     repo: "https://github.com/Powai03/todolist",
@@ -79,8 +80,8 @@ const initialProjects: Project[] = [
     title: "Réplique de Twitter en PHP",
     shortTitle: "Pwitter",
     description: "Réplique minimaliste de Twitter. Création de compte, publication de tweets. Réalisé en PHP et MySQL dans le cadre du cours de découverte de ce langage.",
-    video: "https://player.vimeo.com/video/ID_DE_LA_VIDEO?autoplay=1&loop=1&muted=1&background=1",
-    thumbnail: "/images/pwitter.png",
+    video: "https://player.vimeo.com/video/1056498940?h=ddcfffbcda&autoplay=1&loop=1&muted=1&background=1",
+    thumbnail: "/images/pwitter.jpg",
     technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
     repo: "https://github.com/Powai03/cours_php",
   },
@@ -89,8 +90,8 @@ const initialProjects: Project[] = [
     title: "Simulateur de combat Pokémon",
     shortTitle: "Combat Pokémon",
     description: "Un simulateur de combat Pokémon. Choix des attaques, des Pokémon. Réalisé en PHP et Programmation Orientée Objet.",
-    video: "https://player.vimeo.com/video/ID_DE_LA_VIDEO?autoplay=1&loop=1&muted=1&background=1",
-    thumbnail: "/images/pokemonpoo.png",
+    video: "https://player.vimeo.com/video/1056499355?h=d4b2273250&autoplay=1&loop=1&muted=1&background=1",
+    thumbnail: "/images/pokemon.png",
     technologies: ["PHP", "POO"],
     repo: "https://github.com/Powai03/pokemonPHP",
   },
@@ -99,21 +100,11 @@ const initialProjects: Project[] = [
     title: "Reproduction d\'une maquette Figma avec Sass",
     shortTitle: "Sass",
     description: "Reproduction à l\'identique d\'une maquette Figma d\'un site d\'adoption d\'animal en HTML et CSS, avec l\'utilisation de Sass pour la gestion des styles. Projet de découverte de Sass.",
-    video: "https://player.vimeo.com/video/ID_DE_LA_VIDEO?autoplay=1&loop=1&muted=1&background=1",
-    thumbnail: "/images/sass.png",
+    video: "https://player.vimeo.com/video/1056501161?h=d7724fb435&autoplay=1&loop=1&muted=1&background=1",
+    thumbnail: "/images/sass.jpg",
     technologies: ["HTML", "CSS", "Sass"],
     repo: "https://github.com/Powai03/b2-sass",
   },
-    {
-        id: 10,
-        title: "Application interne de déclaration de problèmes et de demandes",
-        shortTitle: "App interne",
-        description: "Une application interne pour déclarer des problèmes et des demandes. Création de compte, déclaration de problèmes, de demandes, de commentaires, de statuts. Réalisé en PHP et MySQL pour une entreprise, je ne peux vous donner accès au code pour des raisons de confidentialité. ",
-        video: "https://player.vimeo.com/video/ID_DE_LA_VIDEO?autoplay=1&loop=1&muted=1&background=1",
-        thumbnail: "/images/dge.png",
-        technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
-        repo: "",
-    },
 ];
 
 const Projects: React.FC = () => {
@@ -179,10 +170,14 @@ const Projects: React.FC = () => {
             <div className="flex-1">
               <h3 className="text-2xl font-bold">{selectedProject.title}</h3>
               {/* 🔥 Intégration Vimeo */}
-              <div className="w-full h-40 rounded-lg mt-2 overflow-hidden">
+              <div className="w-full h-40 rounded-lg mt-2 overflow-hidden relative">
+                {/* Message de chargement */}
+                <p className="absolute inset-0 flex items-center justify-center  text-white text-sm">
+                    Chargement de la vidéo en cours...
+                </p>
                 <iframe
                   src={selectedProject.video}
-                  className="w-full h-full"
+                  className="w-full h-full mt-4 mb-4 relative z-10"
                   frameBorder="0"
                   allow="autoplay; fullscreen"
                   allowFullScreen
@@ -209,10 +204,10 @@ const Projects: React.FC = () => {
                     rel="noopener noreferrer"
                     className="px-4 py-2 bg-gradient-to-r from-blue-500 to-green-600 rounded-lg text-white font-bold hover:from-green-600 hover:to-blue-500 transition"
                   >
-                    Voir le repo
+                    Voir le repository
                   </a>
                 ) : (
-                  <p className="text-gray-500">Repo non disponible au public</p>
+                  <p className="text-gray-500">Repository non disponible au public</p>
                 )}
               </div>
             </div>
