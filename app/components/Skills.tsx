@@ -32,9 +32,9 @@ const hardSkills = [
     
 // Soft Skills - Liste avec icônes et description
 const softSkills = [
-    { id: 1, name: "Organisation 📅", name2: "Ouvert d'esprit 🌍" },
+    { id: 1, name: "Organisation 📅", name2: "Ouvert d\'esprit 🌍" },
     { id: 2, name: "Créativité 🎨", name2: "Curiosité 🧐" },
-    { id: 3, name: "Adaptabilité 🌟", name2: "Travail d'équipe 🤝" },
+    { id: 3, name: "Adaptabilité 🌟", name2: "Travail d\'équipe 🤝" },
     { id: 4, name: "Méthode Agile 🛠️", name2: "Veille 🔍" },
     { id: 5, name: "Audit 📝", name2: "Gestion de projet 📈" },
     { id: 6, name: "Recettage ✅", name2: "Design Thinking 💡" },
