@@ -5,10 +5,10 @@ import Image from "next/image";
 // Hard Skills - Liste avec images
 const hardSkills = [
   { id: 1, name: "HTML", image: "/images/HTML.svg" },
-  { id: 2, name: "CSS", image: "/images/css.svg" },
+  { id: 2, name: "CSS", image: "/images/CSS.svg" },
   { id: 3, name: "Sass", image: "/images/Sass.svg" },
-  { id: 4, name: "TailwindCSS", image: "/images/tailwindCSS-Dark.svg" },
-  { id: 5, name: "JavaScript", image: "/images/Javascript.svg" },
+  { id: 4, name: "TailwindCSS", image: "/images/TailwindCSS-Dark.svg" },
+  { id: 5, name: "JavaScript", image: "/images/JavaScript.svg" },
   { id: 6, name: "TypeScript", image: "/images/TypeScript.svg" },
   { id: 7, name: "NodeJS", image: "/images/NodeJS-Dark.svg" },
   { id: 8, name: "Express", image: "/images/ExpressJS-Dark.svg" },
