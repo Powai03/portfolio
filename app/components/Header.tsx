@@ -34,6 +34,8 @@ const Header = () => {
                                 1000,
                                 "étudiant en développement web.",
                                 1000,
+                                "Ingénieur Développeur Web en Alternance.",
+                                1000,
                             ]}
                             wrapper="span"
                             speed={50}
