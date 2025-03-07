@@ -14,7 +14,7 @@ export default function News() {
         <Image src="/images/renault.jpg" className="rounded-3xl overflow-hidden" alt="News" width={500} height={500} />
       </div>
       <div className="container mx-auto px-12 py-6 border-solid border-2 border-[hsl(0,0%,100%)] border-opacity-50 rounded-3xl mt-12">
-        <h3 className="lg:text-2xl sm:text-xl text-white mt-12">Kilian "Powai" Delcenserie</h3>
+        <h3 className="lg:text-2xl sm:text-xl text-white mt-12">Kilian &quot;Powai&quot; Delcenserie</h3>
         <h1 className="lg:text-6xl sm: text-2xl font-bold text-white ">Sources: Kilian rejoint Renault Group au Mans</h1>
         <div className="flex justify-between mt-4">
         <span className="px-3 py-1 font-bold bg-gray-700 rounded-md text-sm">LEAK</span>
@@ -36,14 +36,14 @@ export default function News() {
           Kilian Delcenserie, alias Powai, est un étudiant en développement à l&apos;IIM Digital School en deuxième année. Après des études d&apos;architecture, il s&apos;est tourné vers le développement web pour allier ses ambitions et sa passion pour les technologies.
         </p>
         <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-12">
-          Ayant déjà une bonne expérience dans le monde du travail, c&apos;est logiquement qu'il s&apos;est dirigé vers une formation en alternance pour atteindre ses nouveaux objectifs. Des clients comme Lexo ou la Direction des Grandes Entreprises lui ont fait confiance et c&apos;est désormais au tour de Renault Group de lui donner sa chance.
+          Ayant déjà une bonne expérience dans le monde du travail, c&apos;est logiquement qu&apos;il s&apos;est dirigé vers une formation en alternance pour atteindre ses nouveaux objectifs. Des clients comme Lexo ou la Direction des Grandes Entreprises lui ont fait confiance et c&apos;est désormais au tour de Renault Group de lui donner sa chance.
         </p>
         <h2 className="lg:text-4xl sm:text-2xl font-bold text-white mb-12">Un nouveau challenge</h2>
         <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-12">
-          Avec une fin d&apos;année chargée, Kilian "Powai" Delcenserie aura à coeur de relever ce nouveau défi. Une bourse aux projets pour la ville de Chaville, un CDD de 3 mois à la DGE et enfin un déménagement au Mans pour une prise de poste chez Renault Groupe, l&apos;année 2024 s'annonce riche en émotions et en challenge.
+          Avec une fin d&apos;année chargée, Kilian &quot;Powai&quot; Delcenserie aura à coeur de relever ce nouveau défi. Une bourse aux projets pour la ville de Chaville, un CDD de 3 mois à la DGE et enfin un déménagement au Mans pour une prise de poste chez Renault Groupe, l&apos;année 2024 s&apos;annonce riche en émotions et en challenge.
           Sa motivation et sa détermination sont ses meilleurs atouts pour réussir dans ce nouveau chapitre de sa vie.
         </p>
-        <h2 className="text-gray-500 lg:text-4xl sm:text-2xl flex justify-center">- Kilian "Powai" Delcenserie (Éditeur) -</h2>
+        <h2 className="text-gray-500 lg:text-4xl sm:text-2xl flex justify-center">- Kilian &quot;Powai&quot; Delcenserie (Éditeur) -</h2>
         <h4 className="text-gray-500 text-s flex justify-center mt-12">
           Le logo appartient à Renault Group. Tous droits réservés.
         </h4>
