@@ -13,6 +13,7 @@ const navLinks = [
     { href: "#abilities", title: "Skills" },
     { href: "#projects", title: "Projets" },
     { href: "#contact", title: "Contact" },
+    { href: "/news", title: "News" },
 ]
 
 const NavBar = () => {
