@@ -8,11 +8,11 @@ import Image from 'next/image'
 import logoweb from '../../public/logoweb.svg'
 
 const navLinks = [
-    { href: "#header", title: "Moi" },
-    { href: "#parcours", title: "Parcours" },
-    { href: "#abilities", title: "Skills" },
-    { href: "#projects", title: "Projets" },
-    { href: "#contact", title: "Contact" },
+    { href: "/#header", title: "Moi" },
+    { href: "/#parcours", title: "Parcours" },
+    { href: "/#abilities", title: "Skills" },
+    { href: "/#projects", title: "Projets" },
+    { href: "/#contact", title: "Contact" },
     { href: "/news", title: "News" },
 ]
 
