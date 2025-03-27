@@ -40,7 +40,7 @@ export default function News() {
         </p>
         <h2 className="lg:text-4xl sm:text-2xl font-bold text-white mb-12">Un nouveau challenge</h2>
         <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-12">
-          Avec une fin d&apos;année chargée, Kilian &quot;Powai&quot; Delcenserie aura à coeur de relever ce nouveau défi. Une bourse aux projets pour la ville de Chaville, un CDD de 3 mois à la DGE et enfin un déménagement au Mans pour une prise de poste chez Renault Groupe, l&apos;année 2024 s&apos;annonce riche en émotions et en challenge.
+          Avec une fin d&apos;année chargée, Kilian &quot;Powai&quot; Delcenserie aura à coeur de relever ce nouveau défi. Une bourse aux projets pour la ville de Chaville, un CDD de 3 mois à la DGE et enfin un déménagement au Mans pour une prise de poste chez Renault Groupe, l&apos;année 2025 s&apos;annonce riche en émotions et en challenge.
           Sa motivation et sa détermination sont ses meilleurs atouts pour réussir dans ce nouveau chapitre de sa vie.
         </p>
         <h2 className="text-gray-500 lg:text-4xl sm:text-2xl flex justify-center">- Kilian &quot;Powai&quot; Delcenserie (Éditeur) -</h2>
